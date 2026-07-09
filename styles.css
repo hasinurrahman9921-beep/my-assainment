@@ -1,0 +1,67 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f1f5f9;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.logo-box {
+    background-color: #0d1527;
+    color: #2563eb;           
+    font-size: 18px;
+    font-weight: bold;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.logo-text {
+    font-size: 18px;
+    font-weight: 800;         
+    color: #0f172a;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #64748b;
+    margin: 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: #2563eb; 
+}
+
+.nav-btn {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;  
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    background-color: #1d4ed8;
+}
