@@ -2,8 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    
 }
 .navbar {
     display: flex;
@@ -17,18 +16,6 @@
     display: flex;
     align-items: center;
     gap: 12px;
-}
-.logo-box {
-    background-color: #0d1527;
-    color: #2563eb;           
-    font-size: 18px;
-    font-weight: bold;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 12px;
 }
 
 .logo-text {
@@ -64,4 +51,46 @@
 
 .nav-btn:hover {
     background-color: #1d4ed8;
+}
+
+
+.hero-section {
+    background-image:url(assets/banner.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 15px;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #d7d4d4;
+    line-height: 1.5;
+    margin-bottom: 200px;
+}
+
+.hero-btn {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
 }
